@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1> JAVASCRIPT OBJECTS AND PROPERTIES</h1>
+        <P> I am going to say my name and age</P>
+        <p id="demo"></p>
+        <script>
+            // Create an object:
+            var person ={
+                firstname: "Shreyas",
+                age: 11,
+            };
+            // Display some data from the object:
+            document.getElementById("demo").innerHTML = person.firstname + " is" + person.age +" years old";
+
+
+        </script>
+    </body>
+</html>
